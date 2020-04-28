@@ -18,7 +18,7 @@ La partie plus difficile pour moi c'était la section "slider" que je devrais ut
 
 J'ai utilisé le https://swiperjs.com/api/ pour la partie de JS. J'ai enlevé certaines choses pour avoir le rendu final.
 
-Pour la section "text infinite" je ne savais pas comment le faire donc j'ai regardé sur Internet; et j'ai rencontré la balise <marquee>
+Pour la section "text infinite" je ne savais pas comment le faire donc j'ai regardé sur Internet; et j'ai rencontré la balise "marquee"
   
 Vous avez mentionné qu'on doit faire du back-end aussi. Pour le côté du back je connais SQL et un peu du PHP, mais je ne sais pas encore comment les utiliser sur un projet.
 
