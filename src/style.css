@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Karla-Regular";
+  src: url("../fonts/Karla-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura-Bold";
+  src: url("../fonts/futura.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 90px;
+  display: flex;
+}
+
+.logo-mobile {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.logo-desktop,
+.our-clients,
+.the-studio,
+.contact {
+  display: none;
+}
+
+.Banner {
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  text-align: center;
+}
+
+.since-2016 {
+  font-family: "Karla-Regular";
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.quotation {
+  font-family: "futura-Bold";
+  font-size: 30px;
+  margin-top: 50px;
+  line-height: 55px;
+}
+
+#quotation-desktop {
+  display: none;
+}
+
+.tag {
+  font-family: "Karla-Regular";
+}
+
+.shopify {
+  background-image: url(../img/yellow-line.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 120px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  background-color: black;
+  text-align: center;
+}
+
+.portfolio-text {
+  color: white;
+  font-family: "Karla-Regular";
+  margin-top: 90px;
+  font-size: 20px;
+}
+
+.first-line-logos-desktop,
+.second-line-logos-desktop,
+.third-line-logos-desktop {
+  display: none;
+}
+
+.first-line-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+#clients-logos {
+  width: 60px;
+}
+
+.yoko-logo,
+.seasonly-logo,
+.boxtal-logo,
+.mars-logo,
+.rimieras-logo {
+  margin-left: 35px;
+}
+
+.avnihr-logo,
+.universal-logo,
+.bonsoirs-logo,
+.la-fourche-logo,
+.tealer-logo {
+  margin-right: 35px;
+}
+
+.second-line-logos,
+.third-line-logos,
+.forth-line-logos,
+.fifth-line-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 330px;
+}
+.swiper-slide {
+  width: 97% !important;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  background-image: url(../img/Artboard_2.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider2 {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  background-image: url(../img/Artboard_1.jpg);
+  background-repeat: no-repeat;
+}
+
+.artboard-2-text-box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  top: 65px;
+}
+
+.from-scratch-title {
+  font-family: "Karla-Regular";
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.seasonly-logo-2 {
+  width: 100px;
+  margin-top: 17px;
+}
+
+.artboard-2-text {
+  font-family: "Karla-Regular";
+  font-size: 9px;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.learn-more {
+  font-family: "futura-Bold";
+  font-size: 10px;
+  vertical-align: -8px;
+  text-decoration: none;
+  color: #000;
+  background-image: url(../img/yellow-line.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 60px;
+}
+
+.infinity-text {
+  height: 44px;
+  background-color: #ffcd1a;
+  display: flex;
+  flex-direction: column;
+  font-family: "futura-Bold";
+  line-height: 44px;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  header {
+    text-align: right;
+    position: relative;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: inline-block;
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+  }
+
+  .nav-links li {
+    display: inline;
+    vertical-align: middle;
+    padding: 35px;
+    line-height: 90px;
+    font-family: "futura-Bold";
+    font-size: 20px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: #ffcd1a;
+  }
+
+  #quotation-mobile {
+    display: none;
+  }
+
+  #quotation-desktop {
+    display: block;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .shopify {
+    background-image: url(../img/yellow-line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px;
+  }
+
+  .first-line-logos,
+  .second-line-logos,
+  .third-line-logos,
+  .forth-line-logos,
+  .fifth-line-logos {
+    display: none;
+  }
+
+  .first-line-logos-desktop,
+  .second-line-logos-desktop,
+  .third-line-logos-desktop {
+    display: block;
+  }
+
+  .first-line-logos-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  #clients-logos {
+    width: 120px;
+  }
+
+  .yoko-logo,
+  .universal-logo,
+  .big-fernand-logo {
+    margin-left: 150px;
+  }
+
+  .joone-logo,
+  .mars-logo,
+  .tealer-logo {
+    margin-right: 150px;
+  }
+
+  .seasonly-logo {
+    margin-left: -30px;
+  }
+
+  .boxtal-logo {
+    margin-left: -20px;
+  }
+
+  .fempo-logo {
+    margin-right: 37px;
+  }
+
+  .bonsoirs-logo {
+    margin-left: -40px;
+  }
+
+  .mars-logo {
+    margin-left: -37px;
+  }
+
+  .rimieras-logo {
+    margin-left: -30px;
+  }
+
+  .second-line-logos-desktop,
+  .third-line-logos-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+
+  .swiper-container,
+  .slider,
+  .slider2 {
+    height: 500px;
+  }
+
+  .artboard-2-text-box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    left: 200px;
+  }
+
+  .from-scratch-title {
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .seasonly-logo-2 {
+    width: 160px;
+    margin-top: 35px;
+  }
+
+  .artboard-2-text {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+
+  .learn-more {
+    font-size: 15px;
+    vertical-align: -14px;
+    background-size: 90px;
+  }
+
+  .infinity-text {
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+  }
+}
